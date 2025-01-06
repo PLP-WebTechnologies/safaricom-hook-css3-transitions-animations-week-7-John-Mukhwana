@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Blog - Sfaricom Hook</title>
+    <!-- Add AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Health Blog</h1>
+            <p>Your source for health and wellness tips</p>
+        </div>
+    </header>
+
+<!-- NavBar--->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--Hero-->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to the health Blog</h2>
+            <p>Discover articles and tips to live a healthier, happier life</p>
+            <button id="learn-more" class="button">Learn More</button>
+        </div>
+    </section>
+
+<!--Blog Section-->
+
+<section id="blog" class="blog-section">
+    <div  class="container">
+        <h2>Latest Articles</h2>
+        <div class="blog-grid">
+            <article data-aos="zoom-in" data-aos-delay="200"  class="blog-card">
+                <h3>10 Tips for a Balanced Diet</h3>
+                <p>Learn how to maintain a balanaced diet with this 10 tips</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article data-aos="zoom-in" data-aos-delay="200" class="blog-card">
+                <h3>Benefits of Regular Exercise</h3>
+                <p>Discover the physical and mental benefits of staying active</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article data-aos="zoom-in" data-aos-delay="200"  class="blog-card">
+                <h3>Mindfullness Practices</h3>
+                <p>Explore how mindfulness can enhance your daily life.</p>
+                <button class="read-more">Read More</button>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--Spinner-->
+
+<div class="spinner hidden" id="spinner"></div>
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2020 Health Blog. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
+<script src="script.js">
+</script>
+</body>
+</html>
